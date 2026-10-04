@@ -1,0 +1,8 @@
+{
+    "name": "sendertr/sendertr-php",
+    "description": "SenderTR işlemsel e-posta ve pazarlama API istemcisi (resmî PHP SDK)",
+    "type": "library",
+    "license": "MIT",
+    "require": { "php": ">=8.1", "ext-curl": "*", "ext-json": "*" },
+    "autoload": { "psr-4": { "SenderTR\\": "src/" } }
+}
